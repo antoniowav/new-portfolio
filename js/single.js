@@ -28,6 +28,7 @@ timelineSingle.from('.logo, .ul li',.5,{
     }
 });
 
+
 const cursorFollower = document.querySelectorAll(".cursor");
 
 posX = 0;
