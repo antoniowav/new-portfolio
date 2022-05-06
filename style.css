@@ -57,10 +57,14 @@
     height: 100vh;
     width: 100%;
     flex-direction: column;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
 }
+
+
 #home .main-text{
     text-align: center;
-
+    align-items: center;
 }
 .line{
     overflow: hidden;
@@ -278,4 +282,14 @@ a:hover{
 
 .footer{
     height: 200px;
+}
+
+
+
+
+
+/* media queries */
+
+@media screen {
+    
 }
