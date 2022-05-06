@@ -63,11 +63,11 @@ function(e){
 
 
 
-
+/* 
 var media1 = window.matchMedia("(max-width: 819px)");
-var media2 = window.matchMedia("(min-width: 730px)");
-var media3 = window.matchMedia("(min-width: 410px)");
-var media4 = window.matchMedia("(min-width: 375px)");
+var media2 = window.matchMedia("(max-width: 730px)");
+var media3 = window.matchMedia("(max-width: 410px)");
+var media4 = window.matchMedia("(max-width: 375px)");
 
 const cursor1 = document.getElementById("cursor-follow1")
 const cursor2 = document.getElementById("cursor-follow2")
@@ -194,7 +194,7 @@ mediaQueries4(media4)
 media1.addListener(mediaQueries1)
 media2.addListener(mediaQueries2)
 media3.addListener(mediaQueries3)
-media4.addListener(mediaQueries4)
+media4.addListener(mediaQueries4) */
 
 
 /* 
