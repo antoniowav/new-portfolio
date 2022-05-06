@@ -1,6 +1,6 @@
 
 const timeline = gsap.timeline();
-timeline.from('.line p', 2,{
+timeline.from('.line p', 1,{
     delay: 1,
     ease: 'power4.out',
     y: 350,
@@ -9,13 +9,13 @@ timeline.from('.line p', 2,{
         amount: .8
     }
 });
-timeline.to('.body',1.5,{
+timeline.to('.body',1,{
     backgroundColor: '#c9c9c9'
 })
 timeline.to('.line p a', 1,{
     color: 'black'
 },"-=1.5")
-timeline.from('.logo, .ul li',1,{
+timeline.from('.logo, .ul li',0.4,{
     opacity: 0,
     y: "-100%",
     stagger: {
@@ -64,7 +64,7 @@ function(e){
 
 
 
-var media1 = window.matchMedia("(max-width: 1024), (max-height : 800)");
+var media1 = window.matchMedia("(max-width: 819px)");
 var media2 = window.matchMedia("(min-width: 730px)");
 var media3 = window.matchMedia("(min-width: 410px)");
 var media4 = window.matchMedia("(min-width: 375px)");
