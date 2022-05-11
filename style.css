@@ -7,6 +7,8 @@
 .body{
     background-color: black;
     overflow: hidden;
+    transition: .5s ease-in-out;
+
 }
 .menu{
     position: fixed;
@@ -22,6 +24,7 @@
 }
 .menu .logo{
     margin-left: 70px;
+    transition: .5s ease-in-out;
 }
 .menu .logo img{
     text-decoration: none;
@@ -30,6 +33,7 @@
 .menu .ul{
     display: flex;
     list-style: none;
+    transition: .5s ease-in-out;
 }
 .menu .ul li{
     margin-right: 70px;
@@ -174,6 +178,7 @@ a:hover{
 .body2{
     background-color: black;
     transition: .5s ease-in-out;
+    width: 100%;
 
 }
 .project{
@@ -184,6 +189,8 @@ a:hover{
     height: 100.1vh;
     width: 100%;
     flex-direction: row;
+    transition: .5s ease-in-out;
+
 }
 
 .proj-img-desc{
@@ -194,7 +201,9 @@ a:hover{
 .big-txt{
     color: black;
     font-family: 'Amiri';
-    font-size: 150px;
+    font-size: 140px;
+    line-height: 140px;
+    z-index: 11;
 }
 
 .cursor-follow5{
@@ -202,6 +211,7 @@ a:hover{
     filter: drop-shadow(8px 2px 25px rgba(0, 0, 0, 0.578));
     opacity: 0;
     transition: .2s ease-out;
+    z-index: 10;
 
 }
 
@@ -214,6 +224,7 @@ a:hover{
     filter: drop-shadow(8px 2px 25px rgba(0, 0, 0, 0.578));
     opacity: 0;
     transition: .2s ease-out;
+    z-index: 10;
 
 }
 
@@ -226,6 +237,7 @@ a:hover{
     filter: drop-shadow(8px 2px 25px rgba(0, 0, 0, 0.578));
     opacity: 0;
     transition: .2s ease-out;
+    z-index: 10;
 
 }
 
@@ -238,6 +250,7 @@ a:hover{
     filter: drop-shadow(8px 2px 25px rgba(0, 0, 0, 0.578));
     opacity: 0;
     transition: .2s ease-out;
+    z-index: 10;
 
 }
 
@@ -432,50 +445,27 @@ a:hover{
 
 }
 
-/* @media only screen and (max-height: 375px){
+@media only screen and (max-height: 375px){
 
-
-
-    .logo img{
-        width: 90px;
-        height: 38px;
+    .menu{
+        flex-direction: column;
+        margin-top: 20px;
     }
 
-    .main-text{
-        display: flex;
-        flex-direction: row;
-        margin: 5px 5px;
-        justify-content: space-between;
+    .menu .logo {
+        margin: 0px 0px ;
     }
 
-   
-    .line{
-        margin: 10px 10px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
+    .menu .ul li{
+        margin: 0px 0px;
     }
 
-    #home .main-text p{
-        font-size: 0px;
-    }
-
-    #proj1{
-        font-size: 20px;
-    }
-    #proj2{
-        font-size: 20px;
-    }
-    #proj3{
-        font-size: 20px;
-    }
-    #proj4{
-        font-size: 20px;
+    .project{
+        flex-wrap: wrap;
     }
 
 
-} */
+} 
 
 @media only screen and (max-height: 414px){
 
@@ -600,3 +590,128 @@ a:hover{
 
 
 } */
+
+
+
+
+/* Meida queries for project pages */
+
+@media only screen and (max-width: 1230px){
+
+    .cursor{
+        display: none;
+    }
+
+    .project{
+        flex-direction: column;
+    }
+
+    .big-txt{
+        margin-top: 150px;
+        font-size: 70px;
+        line-height: 150px;
+
+    }
+
+    .next-proj{
+        margin-bottom: 25px;
+    }
+
+    .big-img-desc img{
+        width: 400px;
+        height: 300px;
+    }
+
+   
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 415px){
+
+
+  
+    .big-img-desc{
+       margin-bottom: 100px;
+    }
+  
+    .big-img-desc img{
+        width: 400px;
+        height: 300px;
+    }
+
+    .big-txt{
+        font-size: 60px;
+        margin-top: 150px;
+    }
+
+  
+     
+  
+  
+  }
+
+  @media only screen and (max-width: 375px){
+
+
+  
+    .big-img-desc{
+       margin-bottom: 100px;
+    }
+  
+    .big-img-desc img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .big-txt{
+        font-size: 50px;
+        margin: 0;
+        
+    }
+
+    .project{
+        margin-top: 100px;
+        overflow: hidden;
+    }
+
+   .body2{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       overflow: hidden;
+   }
+
+  }
+
+
+
+  @media only screen and (max-height: 360px){
+
+
+
+    
+
+}
+
+
+@media only screen and (max-height: 414px){
+
+
+
+   
+
+}
+
+@media only screen and (max-height: 412px){
+
+
+
+   
+
+
+}

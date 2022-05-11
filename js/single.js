@@ -3,18 +3,18 @@ timelineSingle.to('.body2', .5,{
     backgroundColor: '#c9c9c9',
     color: '#c9c9c9'
 })
-timelineSingle.from('.big-txt p', 1.5,{
+timelineSingle.from('.big-txt p', 1,{
     delay: 1,
     y: "-100%",
     color: 'black',
     opacity: 0
 });
-timelineSingle.from(".mockup", 1.5,{
+timelineSingle.from(".mockup", 0.8,{
     opacity: 0,
     y: "+100%",
     color: 'black'
 })
-timelineSingle.from(".proj-desc, .next-proj", 1.2,{
+timelineSingle.from(".proj-desc, .next-proj", 0.8,{
     opacity: 0,
     y: "+100%",
     color: 'black'
