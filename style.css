@@ -192,6 +192,7 @@ a:hover{
     width: 100%;
     flex-direction: row;
     transition: .5s ease-in-out;
+    overflow: hidden;
 
 }
 
