@@ -199,6 +199,7 @@ a:hover{
 .proj-img-desc{
     display: flex;
     flex-direction: row;
+    overflow: hidden;
 }
 
 .big-txt{
@@ -207,6 +208,7 @@ a:hover{
     font-size: 140px;
     line-height: 140px;
     z-index: 11;
+    overflow: hidden;
 }
 
 .cursor-follow5{
