@@ -163,16 +163,16 @@ a:hover{
 
 }
 .line1:hover ~ .cursor-follow1{
-    opacity: 1;
+    opacity: 0.8;
 }
 .line2:hover ~ .cursor-follow2{
-    opacity: 1;
+    opacity: 0.8;
 }
 .line3:hover ~ .cursor-follow3{
-    opacity: 1;
+    opacity: 0.8;
 }
 .line4:hover ~ .cursor-follow4{
-    opacity: 1;
+    opacity: 0.8;
 }
 
 /* singles html */
@@ -278,6 +278,15 @@ a:hover{
     transition: .2s ease-out;
 
 }
+
+.line10:hover{
+    cursor: pointer;
+}
+
+.line9:hover{
+    cursor: pointer;
+}
+
 .line10:hover ~ .cursor-follow10{
     opacity: 1;
 }
