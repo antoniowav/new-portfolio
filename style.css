@@ -288,9 +288,14 @@ a:hover{
     cursor: pointer;
 }
 
-.line9:hover{
+.line9:hover a{
     cursor: pointer;
 }
+
+/* .line9:hover:before {
+    content: "Test";
+    
+} */
 
 .line10:hover ~ .cursor-follow10{
     opacity: 1;
